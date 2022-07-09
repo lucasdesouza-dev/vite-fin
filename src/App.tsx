@@ -1,7 +1,9 @@
 const App: React.FC = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Testando tudo</h1>
+      <h1 className="title flex justify-center items-center text-4xl m-4 bg-gray-700 border rounded text-white">
+        Minhas Financas
+      </h1>
     </div>
   );
 };
